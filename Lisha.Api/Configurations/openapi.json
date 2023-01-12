@@ -1,0 +1,14 @@
+{
+  "SwaggerSettings": {
+    "Enable": true,
+    "Title": ".NET 7.0 WebAPI - Lisha",
+    "Version": "v1",
+    "Description": "Clean Architecture Template for .NET 7.0 WebApi.",
+    "ContactName": "thind",
+    "ContactEmail": "thinguyendinh983@gmail.com",
+    "ContactUrl": "",
+    "License": true,
+    "LicenseName": "MIT License",
+    "LicenseUrl": ""
+  }
+}

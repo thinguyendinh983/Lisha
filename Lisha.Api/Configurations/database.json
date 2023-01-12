@@ -1,0 +1,6 @@
+{
+  "DatabaseSettings": {
+    "DBProvider": "mssql",
+    "ConnectionString": "Server=.\\LISHASQLSERVER;Database=Lisha;User ID=sa;Password=Bidv@123;Encrypt=False"
+  }
+}

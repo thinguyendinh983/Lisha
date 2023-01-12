@@ -1,0 +1,10 @@
+{
+  "MailSettings": {
+    "DisplayName": "Lisha",
+    "From": "thind@bidv.com.vn",
+    "Host": "mail.bidv.com.vn",
+    "Password": "Bidv@123",
+    "Port": 25,
+    "UserName": "thind"
+  }
+}
