@@ -11,7 +11,7 @@ namespace Lisha.Application
 
             services.AddAutoMapper(assembly);
             services.AddValidatorsFromAssembly(assembly);
-            services.AddMediatR(assembly);
+            services.AddMediatR(cfg=>cfg.RegisterServicesFromAssembly(assembly));
 
             return services;
         }

@@ -37,7 +37,7 @@ namespace Lisha.Infrastructure
                 .AddHealthCheck()
                 .AddLocalization(config)
                 .AddMailing(config)
-                .AddMediatR(assembly)
+                .AddMediatR(cfg=>cfg.RegisterServicesFromAssembly(assembly))
                 .AddNotifications(config)
                 .AddOpenApiDocumentation(config)
                 .AddPersistence(config)
